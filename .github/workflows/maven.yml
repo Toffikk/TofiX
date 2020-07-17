@@ -32,7 +32,7 @@ jobs:
         git submodule update --init --recursive
         ./tuinity jar
         
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v2.0.1
       with:
         name: Tuinity-JDK${{ matrix.java }}
         path: tuinity-paperclip.jar
