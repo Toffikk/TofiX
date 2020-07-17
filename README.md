@@ -1,7 +1,7 @@
 Tuinity ![Java CI](https://github.com/Spottedleaf/Tuinity/workflows/Java%20CI/badge.svg)
 ==
 
-Fork of [Paper](https://github.com/PaperMC/Paper) aimed at improving server performance at high playercounts.
+Fork of [Paper](https://github.com/PaperMC/Paper) aimed at improving server performance at high playercounts.s
 
 ## Contact
 [IRC](http://irc.spi.gt/iris/?channels=tuinity) | [Discord](https://discord.gg/CgDPu27)
