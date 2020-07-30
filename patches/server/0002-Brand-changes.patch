@@ -11,7 +11,7 @@ index 550232cb3819138b3bae0fa1c51429485e8bc593..229c3b0f0c650b501f31147adaa17194
 @@ -70,7 +70,7 @@ public class EULA {
                      Properties properties = new Properties();
  
-                     properties.setProperty("eula", "false");
+                     properties.setProperty("eula", "true");
 -                    properties.store(outputstream, "By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).\nYou also agree that tacos are tasty, and the best food in the world.");  // Paper - fix lag;
 +                    properties.store(outputstream, "By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).");  // Paper - fix lag; // Tuinity - Tacos are disgusting
                  } catch (Throwable throwable1) {
@@ -26,7 +26,7 @@ index 26f230a801bd8efa5f8b61dee53fe7b1435f906b..4317e7de819156e87e2b07de0736a29a
  
      public String getServerModName() {
 -        return "Paper"; //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
-+        return "Tuinity"; // Tuinity //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
++        return "TofiX"; // Tuinity //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
      }
  
      public CrashReport b(CrashReport crashreport) {
@@ -39,7 +39,7 @@ index 6282a05ae855a6b55eec4980fbc1b356f65f500e..6fb68a6c0fcef3e03a5052e57a4ea6ed
  
  public final class CraftServer implements Server {
 -    private final String serverName = "Paper"; // Paper
-+    private final String serverName = "Tuinity"; // Paper // Tuinity
++    private final String serverName = "TofiX"; // Paper // Tuinity
      private final String serverVersion;
      private final String bukkitVersion = Versioning.getBukkitVersion();
      private final Logger logger = Logger.getLogger("Minecraft");

@@ -15,8 +15,8 @@ index 49a38c6608b652ff48ef4eaca0dd3ccb1ba570e3..255bbd6e48b95c70fad02ba692c64c75
      public String getVersionMessage(@Nonnull String serverVersion) {
 -        String[] parts = serverVersion.substring("git-Paper-".length()).split("[-\\s]");
 -        String updateMessage = getUpdateStatusMessage("PaperMC/Paper", GITHUB_BRANCH_NAME, parts[0]);
-+        String[] parts = serverVersion.substring("git-Tuinity-".length()).split("[-\\s]"); // Tuinity
-+        String updateMessage = getUpdateStatusMessage("Spottedleaf/Tuinity", GITHUB_BRANCH_NAME, parts[0]); // Tuinity
++        String[] parts = serverVersion.substring("git-TofiX-".length()).split("[-\\s]"); // Tuinity
++        String updateMessage = getUpdateStatusMessage("tofikarz/Tuinity", GITHUB_BRANCH_NAME, parts[0]); // Tuinity
          String history = getHistory();
  
          return history != null ? history + "\n" + updateMessage : updateMessage;

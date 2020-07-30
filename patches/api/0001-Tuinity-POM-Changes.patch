@@ -14,22 +14,22 @@ index cb37aea9d7f60b54b95b5cf1798d5a6c5c0e7c14..4004ff5d3b9285c737dffcfee5ab48a1
      <parent>
 -        <groupId>com.destroystokyo.paper</groupId>
 -        <artifactId>paper-parent</artifactId>
-+        <groupId>com.tuinity</groupId>
-+        <artifactId>tuinity-parent</artifactId>
++        <groupId>com.tofix</groupId>
++        <artifactId>tofix-parent</artifactId>
          <version>dev-SNAPSHOT</version>
 +        <relativePath>../pom.xml</relativePath>
      </parent>
  
 -    <groupId>com.destroystokyo.paper</groupId>
 -    <artifactId>paper-api</artifactId>
-+    <artifactId>tuinity-api</artifactId>
++    <artifactId>tofix-api</artifactId>
      <version>1.16.1-R0.1-SNAPSHOT</version>
      <packaging>jar</packaging>
  
 -    <name>Paper-API</name>
 -    <url>https://github.com/PaperMC/Paper</url>
-+    <name>Tuinity-API</name>
-+    <url>https://github.com/Spottedleaf/Tuinity</url>
++    <name>TofiX-API</name>
++    <url>https://github.com/tofikarz/Tuinity/tree/TofiX-ONE</url>
      <description>An enhanced plugin API for Minecraft servers.</description>
  
      <properties>
