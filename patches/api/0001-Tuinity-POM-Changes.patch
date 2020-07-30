@@ -29,7 +29,7 @@ index cb37aea9d7f60b54b95b5cf1798d5a6c5c0e7c14..4004ff5d3b9285c737dffcfee5ab48a1
 -    <name>Paper-API</name>
 -    <url>https://github.com/PaperMC/Paper</url>
 +    <name>TofiX-API</name>
-+    <url>https://github.com/tofikarz/Tuinity/tree/TofiX-ONE</url>
++    <url>https://github.com/tofikarz/TofiX/tree/TofiX-ONE</url>
      <description>An enhanced plugin API for Minecraft servers.</description>
  
      <properties>
